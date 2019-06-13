@@ -17,7 +17,7 @@ section {
 }
 
 main {
-  
+
 }
 
 aside {
@@ -44,3 +44,21 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Libre Franklin', sans-serif; */
+
+h1,h2 {
+  font-family: 'Average', serif;
+  letter-spacing: 1px;
+}
+
+p,li {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: .5px;
+  word-spacing: 3px;
+}
+
+h1 {
+  text-align: center;
+}
