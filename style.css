@@ -12,12 +12,9 @@ body {
 
 /* Layout */
 
-section {
-
-}
-
-main {
-
+main: {
+  display: flex;
+  background-color: blue;
 }
 
 aside {
@@ -62,3 +59,31 @@ p,li {
 h1 {
   text-align: center;
 }
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: maroon;
+  font-size: 17px;
+}
+
+.Nav {
+  border: 1px solid black;
+  margin: 6px;
+}
+
+/* Flex options below here */
+/* .flex-section {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+
+.flex-section > div {
+  width: 400px;
+  background-color: red;
+  margin: 400px;
+  text-align: center;
+  line-height: 500px;
+  font-size: 30px;
+} */
