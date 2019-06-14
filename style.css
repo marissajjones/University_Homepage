@@ -13,8 +13,7 @@ body {
 /* Layout */
 
 main: {
-  display: flex;
-  background-color: blue;
+  display: flex
 }
 
 aside {
@@ -41,9 +40,7 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
-/*
-font-family: 'Cinzel', serif;
-font-family: 'Libre Franklin', sans-serif; */
+
 
 h1,h2 {
   font-family: 'Average', serif;
@@ -67,10 +64,11 @@ a:hover {
   font-size: 17px;
 }
 
-.Nav {
+
+/* .Nav {
   border: 1px solid black;
   margin: 6px;
-}
+} */
 
 /* Flex options below here */
 /* .flex-section {
