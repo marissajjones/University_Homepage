@@ -38,6 +38,7 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+  padding: 20px;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -59,7 +60,7 @@ h1 {
 }
 
 a {
-  color: maroon;
+  color: darkgoldenrod;
   target: blank;
 }
 
@@ -80,6 +81,26 @@ ul {
   padding: 0;
   width: 200px;
 }
+
+ul.c {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+
+ul.c li {
+  margin-left: 35px;
+  padding: 25px;
+  background-color: white;
+  border-style: solid;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  width: 200px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
 
 {
   border: solid black 1px;
